@@ -1,15 +1,15 @@
 {
-  "name": "integrador-codo-a-codo-4-danlois-tovar",
-  "version": "1.0.0",
-  "description": "Integrador Danlois Tovar Codo a Codo 4.0",
-  "main": "index.js",
-  "repository": "git@github.com:DanloisTovar/integrador-codo-a-codo-danlois-tovar.git",
-  "author": "Danlois Tovar <danlois.tovar@gmail.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "eslint": "^9.1.1",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.1.3",
-    "prettier": "^3.2.5"
-  }
+	"name": "integrador-codo-a-codo-4-danlois-tovar",
+	"version": "1.0.0",
+	"description": "Integrador Danlois Tovar Codo a Codo 4.0",
+	"main": "index.js",
+	"repository": "git@github.com:DanloisTovar/integrador-codo-a-codo-danlois-tovar.git",
+	"author": "Danlois Tovar <danlois.tovar@gmail.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"eslint": "^9.1.1",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-prettier": "^5.1.3",
+		"prettier": "^3.2.5"
+	}
 }
