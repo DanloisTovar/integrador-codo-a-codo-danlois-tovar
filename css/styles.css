@@ -97,10 +97,23 @@ h6 {
 	width: 70vh;
 	height: 75vh;
 	/* efecto neon */
-	filter: drop-shadow(0 0 10px #fff);
+	filter: drop-shadow(0 0 10px aliceblue);
+}
+.imagen-nasa-neon-balnco {
+	object-fit: cover;
+	/* efecto neon */
+	filter: drop-shadow(0 0 10px aliceblue);
+}
+
+.imagen-categoria-azul {
+	object-fit: cover;
+	width: 70vh;
+	height: 75vh;
+	/* efecto neon */
+	filter: drop-shadow(0 0 10px rgb(3, 183, 238));
 }
 /* hover efecto neon */
-.imagen-categoria:hover {
+.imagen-categoria-hover:hover {
 	filter: drop-shadow(0 0 20px rgb(3, 183, 238));
 	transition: all 0.2s ease-in-out;
 }

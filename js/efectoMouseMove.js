@@ -4,14 +4,12 @@ export default function EfectoMouseMove() {
 		document.addEventListener('mousemove', parallax);
 		function parallax(e) {
 			document.querySelectorAll('.object').forEach(function (move) {
-				var moving_value = move.getAttribute('data-value');
-				var x = (e.clientX * moving_value) / 250;
-				var y = (e.clientY * moving_value) / 250;
+				let moving_value = move.getAttribute('data-value');
+				let x = (e.clientX * moving_value) / 200;
+				let y = (e.clientY * moving_value) / 200;
 				move.style.transform =
 					'translateX(' + x + 'px) translateY(' + y + 'px)';
 			});
-
-			console.log('EfectoMouseMove cargado!' + e.type);
 		}
 	})();
 }
