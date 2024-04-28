@@ -477,13 +477,13 @@ footer {
 	background-color: hsl(225, 78%, 9%);
 	background-size: cover;
 	opacity: -5;
-	transition: opacity 1.5s ease;
+	/* 	transition: opacity 1.5s ease; */
 	pointer-events: none;
 }
 
 .efecto-tarjeta-contacto:hover::before {
 	opacity: 1;
-	z-index: -1; /* lo pongo en 1 para que no boore el texto */
+	z-index: -1; /* lo pongo en 1 para que no borre el texto */
 }
 
 .efecto-tarjeta-contacto::before {
@@ -498,16 +498,9 @@ footer {
 
 .efecto-tarjeta-contacto::before {
 	/* Resto de tu código */
-	transition:
-		opacity 0s ease,
-		transform 0s ease;
-}
-
-.efecto-tarjeta-contacto:hover::before {
-	/* Resto de tu código */
-	transition:
-		opacity 5.5s ease,
-		transform 5.5s ease;
+	transition: opacity 3s ease;
+	/* transform 1.5s ease; */
+	z-index: -2;
 }
 
 /* fin efecto cambio de fondo */
