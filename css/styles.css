@@ -13,6 +13,20 @@ h6 {
 	font-weight: 400;
 	font-style: normal;
 }
+
+/* footer  */
+
+/* para que el footer llegue al final de todas paginas (footer pegajoso) */
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+footer {
+	margin-top: auto;
+}
 /* loarder */
 
 .loader {
@@ -583,3 +597,112 @@ footer p {
 	}
 }
 /*== fin moviles con anchos espesificos: ==*/
+
+/*== landscape ==*/
+@media screen and (orientation: landscape) and (min-width: 600px) and (max-width: 932px) {
+	/* slider */
+	/* texto */
+	.carousel-item .propaganda h5 {
+		font-size: 2rem;
+	}
+	.carousel-item .propaganda p {
+		font-size: 1.5rem;
+		margin-bottom: 13%;
+	}
+	/* introduccion */
+	.introduccion h1 {
+		font-size: 1.8rem;
+	}
+
+	/* imagen introduccion (nasa) */
+	.imagen-nasa {
+		margin-left: 6%;
+		object-fit: cover;
+	}
+	.carousel-item .propaganda {
+		margin-bottom: 0%;
+		padding-bottom: 3%;
+	}
+
+	/* correr el parrafo de como empezar a la derecha */
+	.landscape-introduccion-h4 {
+		margin-top: -15%;
+		position: absolute;
+		right: -11%;
+		width: 50%;
+	}
+
+	.landscape-introduccion-p {
+		margin-top: -10%;
+		position: absolute;
+		right: 40%;
+		left: 49%;
+		width: 50%;
+
+		text-align: justify;
+	}
+
+	.landscape-introduccion-boton {
+		margin-top: 6.5%;
+		position: absolute;
+		right: 35%;
+	}
+}
+
+/* medias para equipos espesificos */
+
+/* samsung A51-52 (popular) mi telefono */
+
+@media screen and (orientation: landscape) and (min-width: 412px) and (max-width: 914px) {
+	/* slider */
+
+	.carousel-item .propaganda p {
+		font-size: 1.5rem;
+	}
+	/* introduccion */
+	.introduccion h1 {
+		font-size: 1.8rem;
+	}
+
+	/* imagen introduccion (nasa) */
+	.imagen-nasa {
+		margin-left: 6%;
+		object-fit: cover;
+	}
+	.carousel-item .propaganda {
+		margin-bottom: 0%;
+		padding-bottom: 3%;
+	}
+
+	/* correr el parrafo de como empezar a la derecha */
+	.landscape-introduccion-h4 {
+		margin-top: -11%;
+		position: absolute;
+		right: -12%;
+		width: 50%;
+	}
+
+	.landscape-introduccion-p {
+		margin-top: -9%;
+		position: absolute;
+		right: 40%;
+		left: 49%;
+		width: 50%;
+
+		text-align: justify;
+	}
+
+	.landscape-introduccion-boton {
+		margin-top: 4%;
+		position: absolute;
+		right: 36.8%;
+	}
+}
+
+@media screen and (orientation: landscape) and (min-width: 390px) and (max-width: 844px) {
+	.landscape-introduccion-boton {
+		margin-top: 5.9%;
+		position: absolute;
+		right: 36.8%;
+	}
+}
