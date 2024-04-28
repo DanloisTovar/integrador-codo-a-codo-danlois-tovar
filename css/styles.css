@@ -818,6 +818,21 @@ footer p {
 		padding-bottom: 10%;
 	}
 }
+
+/* Iphone 12 */
+
+/* ajusta posicion de la galaxia en astronauta */
+
+@media (max-width: 390px) {
+	.efecto-fondo-astronauta::before {
+		background-size: 50vh 52vh;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+}
+
+/* arreglar separador */
+
 @media (max-width: 375px) {
 	.shapedividers_com-5799 {
 		padding-bottom: 20%;
@@ -828,6 +843,7 @@ footer p {
 		padding-bottom: 20%;
 	}
 }
+
 /*== fin moviles con anchos espesificos: ==*/
 
 /*== landscape ==*/
@@ -915,7 +931,7 @@ footer p {
 	}
 
 	.landscape-introduccion-p {
-		margin-top: -9%;
+		margin-top: -8.7%;
 		position: absolute;
 		right: 40%;
 		left: 49%;
@@ -928,6 +944,16 @@ footer p {
 		margin-top: 4%;
 		position: absolute;
 		right: 36.8%;
+	}
+
+	/* ajusta posicion de la galaxia en astronauta */
+	.efecto-fondo-astronauta::before {
+		background-size: 160vh 88vh;
+		margin-bottom: 15%;
+	}
+	/* ajusta posicion de la luna satelite */
+	.efecto-fondo-satelite-1::before {
+		margin-bottom: 25%;
 	}
 }
 
