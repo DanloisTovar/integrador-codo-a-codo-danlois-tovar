@@ -454,6 +454,66 @@ footer {
 	border-bottom-left-radius: 10px;
 }
 
+/* contactanos */
+.propaganda-contacto h5 {
+	font-size: 3rem;
+	color: aliceblue;
+}
+
+/* efecto cambio de fondo */
+.efecto-tarjeta-contacto {
+	position: relative;
+	background-size: cover;
+}
+
+.efecto-tarjeta-contacto::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: url('/img/fondo estrellas.png');
+	background-color: hsl(225, 78%, 9%);
+	background-size: cover;
+	opacity: -5;
+	transition: opacity 1.5s ease;
+	pointer-events: none;
+}
+
+.efecto-tarjeta-contacto:hover::before {
+	opacity: 1;
+	z-index: -1; /* lo pongo en 1 para que no boore el texto */
+}
+
+.efecto-tarjeta-contacto::before {
+	/* Resto de tu código */
+	transform: rotate(180deg); /* aca cambio la rotacion */
+}
+
+.efecto-tarjeta-contacto:hover::before {
+	/* Resto de tu código */
+	transform: rotate(180deg); /* Cambia 0deg al ángulo que prefieras */
+}
+
+.efecto-tarjeta-contacto::before {
+	/* Resto de tu código */
+	transition:
+		opacity 0s ease,
+		transform 0s ease;
+}
+
+.efecto-tarjeta-contacto:hover::before {
+	/* Resto de tu código */
+	transition:
+		opacity 5.5s ease,
+		transform 5.5s ease;
+}
+
+/* fin efecto cambio de fondo */
+
+/* fin contactanos */
+
 /* footer: */
 
 footer p {
@@ -649,7 +709,7 @@ footer p {
 	}
 }
 
-/* medias para equipos espesificos */
+/* medias para equipos especificos */
 
 /* samsung A51-52 (popular) mi telefono */
 
