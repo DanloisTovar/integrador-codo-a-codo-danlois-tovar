@@ -782,6 +782,25 @@ footer p {
 	}
 	/* fin recien-agregadas */
 
+	/* fondo efecto imagen */
+	.efecto-fondo-astronauta::before {
+		background-size: 50vh 58vh;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.efecto-fondo-astronauta-2::before {
+		background-size: 55vh 55vh;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	.efecto-fondo-satelite-1::before {
+		background-size: 60vh 60vh;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	/* fin fondo efecto imagen */
+
 	/* separaacion footer */
 	footer p {
 		padding-top: 20%;
