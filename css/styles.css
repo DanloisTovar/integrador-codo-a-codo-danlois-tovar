@@ -461,6 +461,8 @@ footer {
 }
 
 /* efecto cambio de fondo */
+
+/* cambio formulario: */
 .efecto-tarjeta-contacto {
 	position: relative;
 	background-size: cover;
@@ -473,7 +475,7 @@ footer {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background-image: url('/img/fondo estrellas.png');
+	background-image: url('/img/fondo-estrellas.png');
 	background-color: hsl(225, 78%, 9%);
 	background-size: cover;
 	opacity: -5;
@@ -502,6 +504,142 @@ footer {
 	/* transform 1.5s ease; */
 	z-index: -2;
 }
+
+/* cambio fondo astronauta 1 */
+.efecto-fondo-astronauta {
+	position: relative;
+	background-size: cover;
+}
+
+.efecto-fondo-astronauta::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: url('/img/fondo-estrellas-3.png');
+	background-color: transparent;
+	background-size: cover;
+	opacity: -5;
+	/* 	transition: opacity 1.5s ease; */
+	pointer-events: none;
+}
+
+.efecto-fondo-astronauta:hover::before {
+	opacity: 1;
+	z-index: -1; /* lo pongo en 1 para que no borre el texto */
+}
+
+.efecto-fondo-astronauta::before {
+	/* Resto de tu código */
+	transform: rotate(180deg); /* aca cambio la rotacion */
+}
+
+.efecto-fondo-astronauta:hover::before {
+	/* Resto de tu código */
+	transform: rotate(180deg); /* Cambia 0deg al ángulo que prefieras */
+}
+
+.efecto-fondo-astronauta::before {
+	/* Resto de tu código */
+	transition: opacity 3s ease;
+	/* transform 1.5s ease; */
+	z-index: -2;
+}
+
+/* fin cambio fondo astronauta 1 */
+
+/* cambio fondo astronauta 2 */
+.efecto-fondo-astronauta-2 {
+	position: relative;
+	background-size: cover;
+}
+
+.efecto-fondo-astronauta-2::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: url('/img/luna-2.png');
+	background-color: transparent;
+	background-size: cover;
+	opacity: -5;
+	/* 	transition: opacity 1.5s ease; */
+	pointer-events: none;
+}
+
+.efecto-fondo-astronauta-2:hover::before {
+	opacity: 1;
+	z-index: -1; /* lo pongo en 1 para que no borre el texto */
+}
+
+.efecto-fondo-astronauta-2::before {
+	/* Resto de tu código */
+	transform: rotate(180deg); /* aca cambio la rotacion */
+}
+
+.efecto-fondo-astronauta-2:hover::before {
+	/* Resto de tu código */
+	transform: rotate(180deg); /* Cambia 0deg al ángulo que prefieras */
+}
+
+.efecto-fondo-astronauta-2::before {
+	/* Resto de tu código */
+	transition: opacity 3s ease;
+	/* transform 1.5s ease; */
+	z-index: -2;
+}
+
+/* fin cambio fondo astronauta 2 */
+
+/* cambio fondo satelite 1 */
+
+.efecto-fondo-satelite-1 {
+	position: relative;
+	background-size: cover;
+}
+
+.efecto-fondo-satelite-1::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: url('/img/luna-1.png');
+	background-color: transparent;
+	background-size: cover;
+	opacity: -5;
+	/* 	transition: opacity 1.5s ease; */
+	pointer-events: none;
+}
+
+.efecto-fondo-satelite-1:hover::before {
+	opacity: 1;
+	z-index: -1; /* lo pongo en 1 para que no borre el texto */
+}
+
+.efecto-fondo-satelite-1::before {
+	/* Resto de tu código */
+	transform: rotate(180deg); /* aca cambio la rotacion */
+}
+
+.efecto-fondo-satelite-1:hover::before {
+	/* Resto de tu código */
+	transform: rotate(180deg); /* Cambia 0deg al ángulo que prefieras */
+}
+
+.efecto-fondo-satelite-1::before {
+	/* Resto de tu código */
+	transition: opacity 3s ease;
+	/* transform 1.5s ease; */
+	z-index: -2;
+}
+
+/* fincambio fondo satelite 1 */
 
 /* fin efecto cambio de fondo */
 
