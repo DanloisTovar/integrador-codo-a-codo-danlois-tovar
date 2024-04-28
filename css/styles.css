@@ -641,6 +641,28 @@ footer {
 
 /* fincambio fondo satelite 1 */
 
+/* fondo efecto imagen */
+.efecto-fondo-astronauta::before {
+	background-size: 140vh 87vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	filter: drop-shadow(0 0 10px #5aa9ee);
+}
+
+.efecto-fondo-astronauta-2::before {
+	background-size: 99vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	filter: drop-shadow(0 10px 10px #fff);
+}
+
+.efecto-fondo-satelite-1::before {
+	background-size: 99vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	filter: drop-shadow(0 10px 10px #fff);
+}
+
 /* fin efecto cambio de fondo */
 
 /* fin contactanos */
