@@ -619,7 +619,7 @@ footer {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background-image: url('./../img/luna-1.png');
+	background-image: url('/img/luna-1.png');
 	background-color: transparent;
 	background-size: cover;
 	opacity: -5;
