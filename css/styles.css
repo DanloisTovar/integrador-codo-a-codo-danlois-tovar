@@ -115,7 +115,7 @@ footer {
 
 /* tamaño de imagenes */
 .img-carousel {
-	max-height: 95vh;
+	max-height: 92vh;
 	object-fit: cover;
 }
 
