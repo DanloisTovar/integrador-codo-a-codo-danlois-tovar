@@ -485,7 +485,7 @@ footer {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background-image: url('./img/fondo-estrellas.png');
+	background-image: url('/img/fondo-estrellas.png');
 	background-color: hsl(225, 78%, 9%);
 	background-size: cover;
 	opacity: -5;
@@ -528,7 +528,7 @@ footer {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background-image: url('./img/fondo-estrellas-3.png');
+	background-image: url('/img/fondo-estrellas-3.png');
 	background-color: transparent;
 	background-size: cover;
 	opacity: -5;
@@ -573,7 +573,7 @@ footer {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background-image: url('./img/luna-2.png');
+	background-image: url('/img/luna-2.png');
 	background-color: transparent;
 	background-size: cover;
 	opacity: -5;
@@ -619,7 +619,7 @@ footer {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background-image: url('./img/luna-1.png');
+	background-image: url('./../img/luna-1.png');
 	background-color: transparent;
 	background-size: cover;
 	opacity: -5;
