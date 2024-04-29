@@ -83,6 +83,16 @@ footer {
 }
 /* fin loader: */
 
+/* logo: */
+
+.logo {
+	width: 7.5vh;
+	height: auto;
+}
+.logo-hover:hover {
+	filter: drop-shadow(0px 0px 3px rgb(3, 183, 238));
+}
+
 /* texto logo */
 
 .texto-logo {
@@ -680,6 +690,16 @@ footer p {
 /* fin footer */
 
 /* responsive */
+
+/* monitores grandes 1920 * x1080 */
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+	.efecto-fondo-astronauta::before {
+		background-size: 118.5vh 83.1vh;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+}
 
 /* tablets */
 @media (max-width: 768px) {
