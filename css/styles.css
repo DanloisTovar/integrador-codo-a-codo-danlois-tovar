@@ -667,7 +667,7 @@ footer {
 }
 
 .efecto-fondo-satelite-1::before {
-	background-size: 99vh;
+	background-size: 89vh;
 	background-repeat: no-repeat;
 	background-position: center;
 	filter: drop-shadow(0 10px 10px #fff);
