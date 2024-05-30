@@ -67,6 +67,12 @@ Adicionalmente, se utlilizaron diversos efectos CSS3 explicados en clase, esto n
 
 Estos son solo algunos ejemplos de los efectos CSS utilizados en el proyecto. Se han aplicado de manera estratégica para mejorar la estética y la usabilidad del sitio web, proporcionando una experiencia de usuario más atractiva y agradable.
 
+## funcionalidades de js:
+
+-   **Llamar informacion desde una API utilizando Fetch y async await:** Se ha incluido una animación de carga personalizada utilizando CSS para proporcionar retroalimentación visual mientras se carga el contenido de la página. Esta animación ayuda a mejorar la experiencia del usuario al indicar que el sitio web está procesando la solicitud.
+
+-   **Verificacion de formularios:** Se ha incluido una animación de carga personalizada utilizando CSS para proporcionar retroalimentación visual mientras se carga el contenido de la página. Esta animación ayuda a mejorar la experiencia del usuario al indicar que el sitio web está procesando la solicitud.
+
 ## Instalación
 
 1. Clona este repositorio: `git clone https://github.com/DanloisTovar/integrador-codo-a-codo-danlois-tovar.git`
