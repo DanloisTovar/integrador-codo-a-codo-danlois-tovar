@@ -31,6 +31,8 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
 		
+		<!-- sweet Alert -->
+		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 		<!-- CSS -->
 		<link rel="stylesheet" href="/css/styles.css" />
 		<title>Integrador Codo a Codo Danlois Tovar</title>
@@ -306,63 +308,13 @@
 		<!-- inicio tarjetas de imagenes -->
 		<div class="container my-5">
 			<div class="row">
-				<!-- Tarjeta 1 -->
-				<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-					<div class="card">
-						<img
-							src="/img/sliders/1.png"
-							class="card-img-top"
-							alt="Descripción de la imagen 1"
-						/>
-						<div class="card-body">
-							<h5 class="card-title">Estrella 1</h5>
-							<p class="card-text">Precio: 1$.</p>
-						</div>
-					</div>
+				<div class="row" id="contenedor-de-tarjetas-1">
+					<!-- Las tarjetas se insertarán aquí -->
 				</div>
-				<!-- Tarjeta 2 -->
-				<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-					<div class="card">
-						<img
-							src="/img/sliders/1.png"
-							class="card-img-top"
-							alt="Descripción de la imagen 2"
-						/>
-						<div class="card-body">
-							<h5 class="card-title">Estrella 2</h5>
-							<p class="card-text">Precio: 1$.</p>
-						</div>
-					</div>
-				</div>
-				<!-- Tarjeta 3 -->
-				<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-					<div class="card">
-						<img
-							src="/img/sliders/1.png"
-							class="card-img-top"
-							alt="Descripción de la imagen 2"
-						/>
-						<div class="card-body">
-							<h5 class="card-title">Estrella 3</h5>
-							<p class="card-text">Precio: 1$.</p>
-						</div>
-					</div>
-				</div>
+				
+				
 
-				<!-- Tarjeta 4 -->
-				<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-					<div class="card">
-						<img
-							src="/img/sliders/1.png"
-							class="card-img-top"
-							alt="Descripción de la imagen 2"
-						/>
-						<div class="card-body">
-							<h5 class="card-title">Estrella 4</h5>
-							<p class="card-text">Precio: 1$.</p>
-						</div>
-					</div>
-				</div>
+				
 			</div>
 		</div>
 		<!-- fin tarjetas de imagenes -->
@@ -387,68 +339,12 @@
 
 		<!-- inicio tarjetas de imagenes -->
 		<div class="container my-5">
-			<div class="row">
-				<!-- Tarjeta 1 -->
-				<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-					<div class="card">
-						<img
-							src="/img/sliders/1.png"
-							class="card-img-top"
-							alt="Descripción de la imagen 1"
-						/>
-						<div class="card-body">
-							<h5 class="card-title">Galaxia 1</h5>
-							<p class="card-text">Precio: 2$.</p>
-						</div>
-					</div>
-				</div>
-				<!-- Tarjeta 2 -->
-				<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-					<div class="card">
-						<img
-							src="/img/sliders/1.png"
-							class="card-img-top"
-							alt="Descripción de la imagen 2"
-						/>
-						<div class="card-body">
-							<h5 class="card-title">Galaxia 2</h5>
-							<p class="card-text">Precio: 2$.</p>
-						</div>
-					</div>
-				</div>
-				<!-- Tarjeta 3 -->
-				<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-					<div class="card">
-						<img
-							src="/img/sliders/1.png"
-							class="card-img-top"
-							alt="Descripción de la imagen 2"
-						/>
-						<div class="card-body">
-							<h5 class="card-title">Galaxia 3</h5>
-							<p class="card-text">Precio: 2$.</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- Tarjeta 4 -->
-				<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-					<div class="card">
-						<img
-							src="/img/sliders/1.png"
-							class="card-img-top"
-							alt="Descripción de la imagen 2"
-						/>
-						<div class="card-body">
-							<h5 class="card-title">Galaxia 4</h5>
-							<p class="card-text">Precio: 2$.</p>
-						</div>
-					</div>
-				</div>
+			<div class="row" id="contenedor-de-tarjetas-2">
+				<!--! Las tarjetas se insertarán aquí -->
 			</div>
 		</div>
+				
 		<!-- fin tarjetas de imagenes -->
-
 
 		<!-- linea separadora -->
 <div class="linea-separador  shapedividers_com-5799"></div>
@@ -471,11 +367,11 @@
 						<div class="row h-100 justify-content-center align-items-center">
 							<div class="card bg-transparent col-12 p-4 my-4 efecto-tarjeta-contacto">
 								<div class="card-body bg-transparent">
-									<form>
+									<form class="form">
 										<h2 class="text-center">Contacto</h2>
 										<div class="form-group">
 											<label for="name">Nombre</label>
-											<input type="text" class="form-control" id="name" placeholder="Nombre">
+											<input type="text" class="form-control" id="nombre" placeholder="Nombre">
 										</div>
 										<div class="form-group">
 											<label for="email">Correo Electrónico</label>
@@ -483,15 +379,14 @@
 										</div>
 										<div class="form-group">
 											<label for="message">Mensaje</label>
-											<textarea class="form-control" id="message" placeholder="Escribe tu mensaje aquí"></textarea>
+											<textarea class="form-control" id="mensaje" placeholder="Escribe tu mensaje aquí"></textarea>
 										</div>
 										<button type="submit" class="btn btn-outline-primary mt-3"><span class="texto-logo">Enviar</span></button>
 									</form>
 								</div>
 							</div>
 						</div>
-					</div>
-					
+					</div>					
 					<!-- fin formulario -->
 				</div>
 			</div>

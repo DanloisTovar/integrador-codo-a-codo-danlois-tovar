@@ -375,7 +375,7 @@ footer {
 }
 
 .shapedividers_com-5799 {
-	padding-bottom: 8%;
+	padding-bottom: 10%;
 }
 
 @media (min-width: 768px) {
@@ -407,7 +407,7 @@ footer {
 .card {
 	border-color: #3954db;
 	text-shadow: 0 0 30px #fff;
-	box-shadow: 0 0 20px rgb(3, 183, 238);
+	box-shadow: 0 0 10px rgb(3, 183, 238);
 	/* margin: 0px 15px 0 15px; */
 	/* fix radius inferior derecha */
 	border-bottom-right-radius: 11px;
@@ -418,9 +418,9 @@ footer {
 /* efecto neon */
 .card:hover {
 	box-shadow:
+		0 0 10px rgb(3, 183, 238),
 		0 0 20px rgb(3, 183, 238),
-		0 0 30px rgb(3, 183, 238),
-		0 0 40px rgb(3, 183, 238);
+		0 0 30px rgb(3, 183, 238);
 	color: rgb(3, 183, 238);
 	border-color: rgb(3, 183, 238);
 	transition: all 0.2s ease-in-out;
@@ -605,6 +605,30 @@ footer {
 
 /* fin cambio fondo astronauta 2 */
 
+/* ajustar tamaño de las imagenes de la nasa */
+
+.card-img-top {
+	height: 140px; /* aca se ajusta el tamaño de la imagen */
+	width: 100%; /* se ajusta al 100% del ancho de la tarjeta */
+	object-fit: cover; /* esto hace la imagen cubra "todo" el espacio disponible, manteniendo su aspecto */
+}
+/* fin ajustar tamaño de las imagenes de la nasa */
+
+/* ajustar del tamaño del card body: */
+.card-body-api {
+	height: 130px; /* Ajusta este valor según tus necesidades */
+	overflow: hidden;
+}
+/* fin ajustar del tamaño del card body: */
+
+/* ajustar el tmaño de letra de los textos de las cards */
+
+.card-title,
+.card-text {
+	font-size: 1.19vw; /* Ajusta este valor según tus necesidades */
+	word-wrap: break-word; /* Esto hará que las palabras que son demasiado largas para caber en una línea se rompan en la siguiente línea */
+}
+/* fin ajustar el tmaño de letra de los textos de las cards */
 /* cambio fondo satelite 1 */
 
 .efecto-fondo-satelite-1 {
@@ -756,6 +780,7 @@ footer p {
 	.linea-separador {
 		padding-bottom: 20%;
 	}
+
 	.shapedividers_com-5799 {
 		padding-bottom: 10%;
 	}
