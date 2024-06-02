@@ -11,6 +11,7 @@ export default function alertasSAFormIndex() {
 				let correo = document.getElementById('email').value.trim();
 				var mensaje = document.getElementById('mensaje').value.trim();
 
+				/* validar nombre */
 				if (!nombre) {
 					swal('Error', 'Por favor, introduce tu nombre.', 'error');
 					return;

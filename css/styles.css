@@ -616,7 +616,7 @@ footer {
 
 /* ajustar del tamaño del card body: */
 .card-body-api {
-	height: 130px; /* Ajusta este valor según tus necesidades */
+	height: auto; /* Ajusta este valor según tus necesidades */
 	overflow: hidden;
 }
 /* fin ajustar del tamaño del card body: */
@@ -799,6 +799,12 @@ footer p {
 		color: aliceblue;
 	}
 
+	/* ajustar letras de las tajetas en moviles */
+	.card-title,
+	.card-text {
+		font-size: 3.19vw; /* Ajusta este valor según tus necesidades */
+		word-wrap: break-word; /* Esto hará que las palabras que son demasiado largas para caber en una línea se rompan en la siguiente línea */
+	}
 	/* imagenes categorias */
 	.imagen-categoria-responsive {
 		object-fit: cover;
@@ -862,6 +868,13 @@ footer p {
 		margin-bottom: 0%;
 		padding-bottom: 10%;
 	}
+
+	/* ajustar letras de las tajetas en moviles */
+	.card-title,
+	.card-text {
+		font-size: 3.19vw; /* Ajusta este valor según tus necesidades */
+		word-wrap: break-word; /* Esto hará que las palabras que son demasiado largas para caber en una línea se rompan en la siguiente línea */
+	}
 }
 
 /* Iphone 12 */
@@ -874,6 +887,13 @@ footer p {
 		background-repeat: no-repeat;
 		background-position: center;
 	}
+
+	/* ajustar letras de las tajetas en moviles */
+	.card-title,
+	.card-text {
+		font-size: 3.19vw; /* Ajusta este valor según tus necesidades */
+		word-wrap: break-word; /* Esto hará que las palabras que son demasiado largas para caber en una línea se rompan en la siguiente línea */
+	}
 }
 
 /* arreglar separador */
@@ -882,10 +902,24 @@ footer p {
 	.shapedividers_com-5799 {
 		padding-bottom: 20%;
 	}
+
+	/* ajustar letras de las tajetas en moviles */
+	.card-title,
+	.card-text {
+		font-size: 3.19vw; /* Ajusta este valor según tus necesidades */
+		word-wrap: break-word; /* Esto hará que las palabras que son demasiado largas para caber en una línea se rompan en la siguiente línea */
+	}
 }
 @media (max-width: 360px) {
 	.shapedividers_com-5799 {
 		padding-bottom: 20%;
+	}
+
+	/* ajustar letras de las tajetas en moviles */
+	.card-title,
+	.card-text {
+		font-size: 3.19vw; /* Ajusta este valor según tus necesidades */
+		word-wrap: break-word; /* Esto hará que las palabras que son demasiado largas para caber en una línea se rompan en la siguiente línea */
 	}
 }
 
@@ -939,6 +973,13 @@ footer p {
 		margin-top: 6.5%;
 		position: absolute;
 		right: 35%;
+	}
+
+	/* ajustar letras de las tajetas en moviles */
+	.card-title,
+	.card-text {
+		font-size: 1.19vw; /* Ajusta este valor según tus necesidades */
+		word-wrap: break-word; /* Esto hará que las palabras que son demasiado largas para caber en una línea se rompan en la siguiente línea */
 	}
 }
 
