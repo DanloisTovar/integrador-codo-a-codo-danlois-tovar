@@ -724,8 +724,33 @@ footer p {
 		background-position: center;
 	}
 }
+@media (min-width: 1366px) {
+	/* ajustar letras de las tajetas en moviles */
+	.card-title,
+	.card-text {
+		font-size: 1.19vw; /* Ajusta este valor según tus necesidades */
+		word-wrap: break-word; /* Esto hará que las palabras que son demasiado largas para caber en una línea se rompan en la siguiente línea */
+	}
+}
+@media (min-width: 1024px) {
+	/* ajustar letras de las tajetas en moviles */
+	.card-title,
+	.card-text {
+		font-size: 1.19vw; /* Ajusta este valor según tus necesidades */
+		word-wrap: break-word; /* Esto hará que las palabras que son demasiado largas para caber en una línea se rompan en la siguiente línea */
+	}
+}
 
 /* tablets */
+
+@media screen and (min-width: 768px) and (min-height: 1024px) {
+	/* ajustar letras de las tajetas en moviles */
+	.card-title,
+	.card-text {
+		/* font-size: 1.19vw; */ /* Ajusta este valor según tus necesidades */
+		word-wrap: break-word; /* Esto hará que las palabras que son demasiado largas para caber en una línea se rompan en la siguiente línea */
+	}
+}
 @media (max-width: 768px) {
 	/* buscador */
 	.buscador p {
@@ -867,13 +892,6 @@ footer p {
 	.carousel-item .propaganda {
 		margin-bottom: 0%;
 		padding-bottom: 10%;
-	}
-
-	/* ajustar letras de las tajetas en moviles */
-	.card-title,
-	.card-text {
-		font-size: 3.19vw; /* Ajusta este valor según tus necesidades */
-		word-wrap: break-word; /* Esto hará que las palabras que son demasiado largas para caber en una línea se rompan en la siguiente línea */
 	}
 }
 

@@ -69,9 +69,17 @@ Estos son solo algunos ejemplos de los efectos CSS utilizados en el proyecto. Se
 
 ## funcionalidades de js:
 
--   **Llamar informacion desde una API utilizando Fetch y async await:** Se ha incluido una animación de carga personalizada utilizando CSS para proporcionar retroalimentación visual mientras se carga el contenido de la página. Esta animación ayuda a mejorar la experiencia del usuario al indicar que el sitio web está procesando la solicitud.
+-   **Mouse move:** Se ha implementado un efecto interactivo basado en el movimiento del ratón utilizando JavaScript. Este efecto responde a los movimientos del ratón del usuario, proporcionando una experiencia visual dinámica y atractiva. Al seguir los movimientos del ratón, el sitio web ofrece una retroalimentación inmediata, mejorando la interacción y el compromiso del usuario.
 
--   **Verificacion de formularios:** Se ha incluido una animación de carga personalizada utilizando CSS para proporcionar retroalimentación visual mientras se carga el contenido de la página. Esta animación ayuda a mejorar la experiencia del usuario al indicar que el sitio web está procesando la solicitud.
+-   **Llamar informacion desde una API utilizando Fetch y async await:** Se ha implementado una funcionalidad para obtener datos desde una API externa (API de la NASA) utilizando la función Fetch junto con async/await en JavaScript. Este enfoque permite realizar solicitudes de manera asíncrona y manejar las respuestas de manera eficiente. Al usar async/await, el código es más legible y fácil de mantener, mejorando la capacidad de respuesta de la aplicación al interactuar con servicios externos.
+
+-   **Nota ¡importante!:**
+
+-   **API NASA:** https://api.nasa.gov/
+
+deben entrar a la pagina y registrase, para que le envien la key al correo personal.
+
+-   **Verificacion de formularios:** Se ha implementado una funcionalidad de verificación de formularios para asegurar que los datos ingresados por el usuario cumplan con los requisitos especificados. Esta verificación se realiza en el lado del cliente utilizando JavaScript para proporcionar retroalimentación inmediata y evitar errores al enviar el formulario. La validación incluye comprobaciones de campos obligatorios, formatos de datos, y otras reglas específicas, mejorando la calidad y la integridad de los datos enviados.
 
 ## Instalación
 
